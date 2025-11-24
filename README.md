@@ -3,8 +3,8 @@
 ## Información del Estudiante
 
 - **Nombre**: Darío Mariscal Rocha
-- **Grupo**: 100
-- **Curso**: Inteligencia Artificial Avanzada para la Ciencia de Datos I
+- **Grupo**: 500
+- **Curso**: Inteligencia Artificial Avanzada para la Ciencia de Datos II
 
 ## Descripción
 
