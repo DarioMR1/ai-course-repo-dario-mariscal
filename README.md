@@ -12,8 +12,23 @@ Este repositorio contiene los notebooks implementados durante el curso de Inteli
 
 ## Contenido
 
+### Notebooks de Análisis
 - `airbnb.ipynb` - Análisis de datos de Airbnb
+- `Introduction_Time_Series_30_oct.ipynb` - Introducción al análisis de series temporales
+- `Multiple_Imputation_MICE_9_oct.ipynb` - Análisis de imputación múltiple MICE para datos faltantes
+- `Multivariate_Analysis_2_oct.ipynb` - Análisis multivariado
+- `Nonlinear_Regression_22_sep.ipynb` - Regresión no lineal
+- `Regression_Assumptions_28_sep.ipynb` - Análisis de supuestos de regresión
+- `Time_Series_Deep_Learning_30_oct.ipynb` - Deep Learning para series temporales con CNN y LSTM
+- `Variable_Selection_25_sep.ipynb` - Selección de variables
+
+### Datasets
 - `listings.csv` - Dataset de Airbnb
+- `housing.csv` - Dataset de viviendas
+
+### Configuración
+- `requirements.txt` - Dependencias del proyecto
+- `.gitignore` - Archivos ignorados por Git
 
 ## Estructura del Proyecto
 
@@ -21,8 +36,17 @@ Este repositorio contiene los notebooks implementados durante el curso de Inteli
 ai-course-repo-dario-mariscal/
 ├── README.md
 ├── .gitignore
+├── requirements.txt
 ├── airbnb.ipynb
+├── Introduction_Time_Series_30_oct.ipynb
+├── Multiple_Imputation_MICE_9_oct.ipynb
+├── Multivariate_Analysis_2_oct.ipynb
+├── Nonlinear_Regression_22_sep.ipynb
+├── Regression_Assumptions_28_sep.ipynb
+├── Time_Series_Deep_Learning_30_oct.ipynb
+├── Variable_Selection_25_sep.ipynb
 ├── listings.csv
+├── housing.csv
 └── venv/          # Entorno virtual (ignorado por Git)
 ```
 
@@ -33,7 +57,17 @@ ai-course-repo-dario-mariscal/
 3. Activar el entorno virtual:
    - Windows: `venv\Scripts\activate`
    - macOS/Linux: `source venv/bin/activate`
-4. Instalar dependencias: `pip install -r requirements.txt` (cuando esté disponible)
+4. Instalar dependencias: `pip install -r requirements.txt`
+
+## Dependencias
+
+El proyecto incluye las siguientes librerías principales:
+- **Análisis de datos**: polars, pandas, numpy
+- **Visualización**: matplotlib, seaborn, plotly, bokeh  
+- **Machine Learning**: scikit-learn, statsmodels
+- **Deep Learning**: tensorflow, keras
+- **Jupyter**: jupyter, jupyterlab, ipykernel
+- **Utilitarios**: openpyxl, xlrd, numba
 
 ## Uso
 
